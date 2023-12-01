@@ -13,7 +13,8 @@
         navigator.geolocation.getCurrentPosition(function (position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
-            var googleMapsURL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(restaurantType) + "&ll=" + latitude + "," + longitude + "&radius=" + radius + "m";
+            var googleMapsURL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(restaurantType) + "&center=" + latitude + "," + longitude + "&radius=" + radius + "m";
+
 
             // 直接導向到 Google Maps 網站
             window.location.href = googleMapsURL;
