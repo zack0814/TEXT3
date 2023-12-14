@@ -2,7 +2,7 @@
 
 /* 全局样式 */
 .ui-page {
-   background-image: url('https://github.com/zack0814/TEXT3/blob/e3f8e9a538add6b031b28324eb72807a2318ae54/%E8%83%8C%E6%99%AF.jpg');
+   background-image: url('/zack0814/TEXT3/背景.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
